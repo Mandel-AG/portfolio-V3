@@ -1,0 +1,100 @@
+/* .containerHeader {
+	background-color: #f9e4b7;
+	height: 10vh;
+	align-items: center;
+	margin-bottom: 4vh;
+}
+
+.navBar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.navBar ul {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	list-style: none;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+.navBar li {
+	height: 10%;
+}
+
+.elementInNav {
+	text-align: center;
+	width: 40%;
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: black;
+}
+
+.shortElementInNav {
+	width: 25%;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: purple;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 650px) {
+	.navBar {
+		justify-content: space-around;
+	}
+
+	.navBar ul {
+		width: 90%;
+		overflow-x: auto;
+		justify-content: start;
+	}
+
+	.elementInNav {
+		width: 100%;
+		margin-right: 2vw;
+		padding: 2vw;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+	.elementInNav {
+		width: 100%;
+		margin-right: 2vw;
+		padding: 2vw;
+	}
+} */
+
+.containerHeader {
+	height: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.headerEmptyLeftSpace {
+	display: none;
+}
+
+.navBar {
+	overflow-y: scroll;
+}
+
+.navBar ul {
+	display: flex;
+	flex-direction: row;
+	overflow-y: scroll;
+}
+
+.elementInNav {
+	padding: 0 0.5rem;
+}
