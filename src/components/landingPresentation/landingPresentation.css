@@ -1,18 +1,27 @@
-.containerLandingPresentation {
-	background-color: red;
-	text-align: center;
-}
+@media only screen and (max-width: 930px) {
+	.containerLandingPresentation {
+		background-color: #0a0a1d;
+		text-align: center;
+		font-weight: 300;
+	}
 
-.landingName {
-	font-size: 1.8rem;
-	padding: 1.3rem 0;
-}
+	.landingName {
+		font-size: 1.8rem;
+		padding: 1.3rem 0;
+		color: whitesmoke;
+	}
 
-.landingCareer {
-	font-size: 1.8rem;
-}
+	.landingName h1 {
+		font-weight: 400;
+	}
+	.landingCareer {
+		font-size: 1.8rem;
+		color: whitesmoke;
+	}
 
-.landingDescription {
-	margin: auto;
-	padding: 1.3rem 1.2rem;
+	.landingDescription {
+		margin: auto;
+		padding: 1.3rem 1.2rem;
+		color: whitesmoke;
+	}
 }

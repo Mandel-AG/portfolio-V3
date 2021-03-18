@@ -1,0 +1,41 @@
+.containerSkills {
+	height: 41.1vh;
+	padding: 1.8em;
+	color: aliceblue;
+	position: relative;
+	background-color: #0d0e20;
+}
+
+.skills__title {
+	padding-left: 5em;
+}
+
+.allSkills {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 1em;
+}
+
+.skill__containerCircle {
+	width: 6em;
+	height: 6em;
+	margin: 1em;
+	text-align: center;
+	position: relative;
+}
+
+.skill__Circle {
+	width: 6em;
+	height: 6em;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.skill__containerCircle span {
+	position: absolute;
+	top: 39%;
+	left: 15%;
+	text-align: center;
+	width: 4em;
+}
