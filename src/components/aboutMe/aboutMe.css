@@ -1,40 +1,25 @@
 .containerAboutMe {
-	height: 41.1vh;
-	padding: 1.8em;
+	height: 55.1vh;
 	color: aliceblue;
 	position: relative;
 	background-color: #0a0a1d;
+}
+
+.container__description {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 50%;
+	margin: auto;
 }
 
 .title__number {
 	color: red;
 }
 
-.aboutMe__picture {
-	position: relative;
-	/* width: 100%; */
-	color: aqua;
-	position: absolute;
-	bottom: 0;
-}
-
-.myPicture {
-	width: 13.4em;
-	/* position: relative; */
-	padding-left: 7em;
-	/* top: 0;
-  bottom: 0; */
-	display: flex;
-	filter: grayscale(100);
-	z-index: 1;
-}
-
 .aboutMe__description {
-	position: absolute;
 	width: 17em;
 	text-align: center;
-	bottom: 4em;
-	z-index: 2;
 	font-weight: bold;
 	line-height: 1.6em;
 	text-justify: newspaper;

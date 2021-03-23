@@ -1,5 +1,5 @@
 .containerSkills {
-	height: 41.1vh;
+	min-height: 19vh;
 	padding: 1.8em;
 	color: aliceblue;
 	position: relative;
@@ -7,14 +7,16 @@
 }
 
 .skills__title {
-	padding-left: 5em;
+	padding-left: 8em;
 }
 
 .allSkills {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 1em;
+	padding: 5em;
+	width: 55%;
+	margin: auto;
 }
 
 .skill__containerCircle {

@@ -1,0 +1,97 @@
+.containerExperiences {
+	background-color: #0a0a1d;
+	min-height: 58vh;
+	padding-top: 6em;
+}
+
+.container__allExperiences {
+	display: flex;
+	justify-content: center;
+	width: 24em;
+	margin: auto;
+	min-height: 44vh;
+}
+
+.allExperiences {
+	padding-left: 3em;
+	position: relative;
+	width: 100%;
+}
+
+.verticalLine {
+	/* min-height: 42vh; */
+	min-height: 100%;
+	border-left: 1px solid whitesmoke;
+	position: absolute;
+}
+
+.horizontalLine {
+	min-width: 5em;
+	border-bottom: 1px solid whitesmoke;
+}
+
+.eachExperience {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 1em 0;
+	color: whitesmoke;
+	width: 100%;
+}
+
+.experience__description {
+	background-color: #bbbbbb;
+	width: 90%;
+	height: 5em;
+	text-align: center;
+	padding-top: 1em;
+	font-size: 1rem;
+}
+
+.experience__description span {
+	color: black;
+}
+
+.experiences__title {
+	margin-bottom: 4em;
+	padding-right: 35%;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.test1 .horizontalLine {
+	min-width: 2em;
+}
+
+.test1 {
+	position: absolute;
+	left: 2em;
+}
+
+.test2 {
+	position: absolute;
+	left: 2em;
+	top: 8em;
+}
+
+.test3 {
+	position: absolute;
+	left: 2em;
+	top: 16em;
+}
+
+@media screen and (max-width: 530px) {
+	.container__allExperiences {
+		margin: auto;
+		width: 17em;
+	}
+
+	.containerExperiences {
+		min-height: 73vh;
+	}
+
+	/* .verticalLine {
+		min-height: 55vh;
+	} */
+}

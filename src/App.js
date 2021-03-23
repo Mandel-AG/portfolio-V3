@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, LandingPresentation, AboutMe, Skills } from './components/index';
+import { Header, LandingPresentation, AboutMe, Skills, Experiences, LandingPicture } from './components/index';
 
 function App() {
   return (
@@ -8,9 +8,14 @@ function App() {
 
       <LandingPresentation />
 
+      <LandingPicture />
+
       <AboutMe />
 
       <Skills />
+
+      <Experiences />
+
     </div>
   );
 }

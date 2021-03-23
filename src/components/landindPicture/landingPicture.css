@@ -1,0 +1,6 @@
+.container__landingPicture {
+	display: flex;
+	justify-content: center;
+	background-color: #0d0e20;
+	height: 67vh;
+}

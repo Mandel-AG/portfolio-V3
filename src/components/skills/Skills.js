@@ -9,7 +9,7 @@ class Skills extends React.Component{
     render(){
 
       const eachSkill = skillTab.map(el => (
-              <div className="skill__containerCircle">
+              <div key={Math.random()} className="skill__containerCircle">
                 <div className="skill__Circle"></div>
                 <span>{el}</span>
               </div>

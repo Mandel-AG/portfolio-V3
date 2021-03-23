@@ -14,7 +14,7 @@ class LandingPresentation extends React.Component{
                     </div>
 
                     <div className='landingCareer'>
-                        <p>Développeur Web</p>
+                        <p>Développeur d'application Web</p>
                     </div>
 
                     <div className="landingDescription">

@@ -5,3 +5,4 @@ export { default as Experiences } from './experiences/Experiences';
 export { default as LandingPresentation } from './landingPresentation/LandingPresentation';
 export { default as Projects } from './projects/Projects';
 export { default as Skills } from './skills/Skills';
+export { default as LandingPicture } from './landindPicture/LandingPicture';
