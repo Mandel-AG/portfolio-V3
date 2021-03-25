@@ -9,7 +9,8 @@
 	justify-content: center;
 	width: 24em;
 	margin: auto;
-	min-height: 44vh;
+	min-height: 27vh;
+	position: relative;
 }
 
 .allExperiences {
@@ -23,6 +24,7 @@
 	min-height: 100%;
 	border-left: 1px solid whitesmoke;
 	position: absolute;
+	left: 4em;
 }
 
 .horizontalLine {
@@ -35,7 +37,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin: 1em 0;
+	margin: 1.5em 0;
 	color: whitesmoke;
 	width: 100%;
 }
@@ -47,6 +49,7 @@
 	text-align: center;
 	padding-top: 1em;
 	font-size: 1rem;
+	opacity: 75%;
 }
 
 .experience__description span {
@@ -65,11 +68,11 @@
 }
 
 .test1 {
-	position: absolute;
-	left: 2em;
+	/* position: absolute; */
+	/* left: 2em; */
 }
 
-.test2 {
+/* .test2 {
 	position: absolute;
 	left: 2em;
 	top: 8em;
@@ -79,7 +82,7 @@
 	position: absolute;
 	left: 2em;
 	top: 16em;
-}
+} */
 
 @media screen and (max-width: 530px) {
 	.container__allExperiences {

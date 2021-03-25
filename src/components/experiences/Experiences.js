@@ -26,8 +26,8 @@ class Experiences extends React.Component{
                       <p><span className="title__number">02.</span> Experiences</p>
                     </div>
                     <div className="container__allExperiences">
-                      <div className="allExperiences">
                           <div className="verticalLine"></div>
+                      <div className="allExperiences">
                           {eachExperience}
 
                       </div>

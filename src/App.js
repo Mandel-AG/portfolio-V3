@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, LandingPresentation, AboutMe, Skills, Experiences, LandingPicture } from './components/index';
+import { Header, LandingPresentation, AboutMe, Skills, Experiences, LandingPicture,Projects } from './components/index';
 
 function App() {
   return (
@@ -15,6 +15,8 @@ function App() {
       <Skills />
 
       <Experiences />
+
+      <Projects />
 
     </div>
   );
