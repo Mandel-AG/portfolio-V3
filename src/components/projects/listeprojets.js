@@ -1,15 +1,6 @@
 const projectsList = [
     {
-        id:1,
-        nom: 'Club basket-ball',
-        img:'./imgprojets/cbbv.png',
-        description:" Premier projet Fullstack.Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. A finir et améliorer. ",
-        technologie : 'Mern stack',
-        visite : true,
-        lien: 'https://cbbv.herokuapp.com/'
-    },
-    {
-        id:2,
+        id:0,
         nom: 'Ag social-network',
         img:'./imgprojets/network.png',
         description:"Défi projet d'un reseau social. Le défi était de réaliser le MPV en moins d'une semaine. Il reste beaucoup de chose à faire donc je continuerai évidemment à le mettre a jour. Pour le design de l'UI, je me suis inspiré d'une autre site.",
@@ -17,6 +8,26 @@ const projectsList = [
         visite : true,
         lien:'https://ag-socialnetwork.herokuapp.com/'
 
+    },
+    {
+        id:1,
+        nom: 'Nutrifruits',
+        img:'./imgprojets/nutrifruits.png',
+        description:"Projet d'un site de nutrition réalisé en groupe. Indication des éléments nutritifs de fruits + ajout d'un chat en temps réel.",
+        technologie : 'React js et Node (Socket io)',
+        visite : true,
+        lien : 'https://nutrifruits.herokuapp.com'
+
+    },
+    
+    {
+        id:2,
+        nom: 'Sodassu',
+        img:'./imgprojets/sodassu.png',
+        description:"Reproduction d'une animation découverte sur un autre site",
+        technologie : 'Javascript natif, HTML / CSS',
+        visite : false,
+        lien :'https://sodassu.herokuapp.com/'
     },
     {
         id:3,
@@ -29,26 +40,15 @@ const projectsList = [
     },
     {
         id:4,
-        nom: 'Nutrifruits',
-        img:'./imgprojets/nutrifruits.png',
-        description:"Projet d'un site de nutrition réalisé en groupe. Indication des éléments nutritifs de fruits + ajout d'un chat en temps réel.",
-        technologie : 'React js et Node (Socket io)',
+        nom: 'Club basket-ball',
+        img:'./imgprojets/cbbv.png',
+        description:" Premier projet Fullstack.Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. A finir et améliorer. ",
+        technologie : 'Mern stack',
         visite : true,
-        lien : 'https://nutrifruits.herokuapp.com'
-
+        lien: 'https://cbbv.herokuapp.com/'
     },
     {
         id:5,
-        nom: 'Sodassu',
-        img:'./imgprojets/sodassu.png',
-        description:"Reproduction d'une animation découverte sur un autre site",
-        technologie : 'Javascript natif, HTML / CSS',
-        visite : false,
-        lien :'https://sodassu.herokuapp.com/'
-
-    },
-    {
-        id:6,
         nom: 'Todo List',
         img:'./imgprojets/todolist.png',
         description:"Todo List réalisée sur ReactJS",
@@ -56,7 +56,7 @@ const projectsList = [
         visite : false
     },
     {
-        id:7,
+        id:6,
         nom: 'Misoralist VOD',
         img:'./imgprojets/Misora.png',
         description:"Projet d'un site VOD",

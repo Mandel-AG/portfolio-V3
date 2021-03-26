@@ -3,11 +3,12 @@
 	padding: 1.8em;
 	color: aliceblue;
 	position: relative;
-	background-color: #0d0e20;
+	background-color: #0a0a1d;
 }
 
 .skills__title {
 	padding-left: 8em;
+	font-size: small;
 }
 
 .allSkills {
@@ -22,22 +23,35 @@
 .skill__containerCircle {
 	width: 6em;
 	height: 6em;
-	margin: 1em;
+	margin: 3em;
 	text-align: center;
-	position: relative;
+	/* position: relative; */
+	display: flex;
+	flex-direction: column;
 }
 
 .skill__Circle {
 	width: 6em;
 	height: 6em;
-	background-color: black;
+	/* background-color: black; */
 	border-radius: 50%;
 }
 
 .skill__containerCircle span {
-	position: absolute;
+	/* position: absolute;
 	top: 39%;
-	left: 15%;
+	left: 15%; */
 	text-align: center;
-	width: 4em;
+	/* width: 4em; */
+	margin: 2em 0;
+}
+
+.skill__containerCircle img {
+	width: 100%;
+}
+
+@media screnn and (max-width: 1020px) {
+	.allSkills {
+		width: 60%;
+	}
 }

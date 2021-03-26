@@ -1,8 +1,8 @@
 .containerAboutMe {
-	height: 55.1vh;
+	height: 23.1vh;
 	color: aliceblue;
 	position: relative;
-	background-color: #0a0a1d;
+	background-color: #0d0e20;
 }
 
 .container__description {
@@ -13,14 +13,20 @@
 	margin: auto;
 }
 
+.aboutMe__title {
+	font-size: small;
+	padding-left: 2em;
+	margin-bottom: 3em;
+}
+
 .title__number {
 	color: red;
 }
 
 .aboutMe__description {
-	width: 17em;
+	width: 32em;
 	text-align: center;
 	font-weight: bold;
 	line-height: 1.6em;
-	text-justify: newspaper;
+	font-size: smaller;
 }

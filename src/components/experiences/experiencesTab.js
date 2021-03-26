@@ -1,35 +1,32 @@
 const experiencesTab =[
   {
     index:1,
-    class:"test1",
+    class:"longerLine",
     year : "2019",
-    position:'developpeur',
-    company : 'None',
-    description : "J'ai travaillé là-bas."
+    position:'Stagiaire développeur Front ',
+    company : 'TF1',
+    technos : "React"
   },
   {
     index:2,
-    class:"test2",
-    year : "2020",
-    position:'developpeur',
-    company : 'None',
-    description : "J'ai travaillé là-bas."
+    class:"shorterLine",
+    year : "2019",
+    position:'Certifications :',
+    technos : "Methodes Agiles, Opquast et Freeformers"
   },
   {
     index:3,
-    class:"test3",
+    class:"longerLine",
     year : "2020",
-    position:'developpeur',
-    company : 'None',
-    description : "J'ai travaillé là-bas."
+    position:'Développeur - Projets personnels',
+    technos : "MERN / MEAN / Symfony"
   },
   {
     index:4,
-    class:"test2",
+    class:"shorterLine",
     year : "2020",
     position:'developpeur',
-    company : 'None',
-    description : "J'ai travaillé là-bas."
+    technos : "J'ai travaillé là-bas."
   }
 ]
 //class projet, class job, classe 1

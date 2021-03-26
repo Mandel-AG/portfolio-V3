@@ -3,6 +3,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	font-size: small;
 }
 
 .header {
@@ -47,6 +48,24 @@
 	border-bottom: 1px solid whitesmoke;
 	width: 50%;
 	margin: auto;
+}
+
+.slide {
+	/* border-bottom: 1px solid bisque; */
+}
+
+@keyframes borderLine {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.nav--Active {
+	border-bottom: 1px solid white;
+	animation: borderLine 1s linear;
 }
 
 @media screen and (min-width: 608px) {

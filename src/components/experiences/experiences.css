@@ -48,8 +48,8 @@
 	height: 5em;
 	text-align: center;
 	padding-top: 1em;
-	font-size: 1rem;
-	opacity: 75%;
+	font-size: small;
+	/* opacity: 75%; */
 }
 
 .experience__description span {
@@ -61,28 +61,12 @@
 	padding-right: 35%;
 	color: whitesmoke;
 	text-align: center;
+	font-size: small;
 }
 
-.test1 .horizontalLine {
+.shorterLine .horizontalLine {
 	min-width: 2em;
 }
-
-.test1 {
-	/* position: absolute; */
-	/* left: 2em; */
-}
-
-/* .test2 {
-	position: absolute;
-	left: 2em;
-	top: 8em;
-}
-
-.test3 {
-	position: absolute;
-	left: 2em;
-	top: 16em;
-} */
 
 @media screen and (max-width: 530px) {
 	.container__allExperiences {
@@ -93,8 +77,4 @@
 	.containerExperiences {
 		min-height: 73vh;
 	}
-
-	/* .verticalLine {
-		min-height: 55vh;
-	} */
 }

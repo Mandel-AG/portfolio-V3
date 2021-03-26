@@ -8,13 +8,13 @@ class LandingPresentation extends React.Component{
     render(){
 
         return(
-            <div className="containerLandingPresentation">
+            <div className="containerLandingPresentation" id="presentation" >
                     <div className='landingName'>
-                        <h1>AGBOVON Mandel</h1>
+                        <h1><span className="blueLetters">A</span>GBOVON <span className="blueLetters">M</span>andel</h1>
                     </div>
 
                     <div className='landingCareer'>
-                        <p>Développeur d'application Web</p>
+                        <p className="blueLetters">Développeur d'application Web</p>
                     </div>
 
                     <div className="landingDescription">
