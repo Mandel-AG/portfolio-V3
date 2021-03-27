@@ -6,7 +6,7 @@ import experiencesTab from "./experiencesTab.js"
 
 export default function Experiences(){
 
-    const eachExperience = experiencesTab.map(el => (
+    const eachExperience = experiencesTab.reverse().map(el => (
         <div key={el.index} className={`eachExperience ${el.class}`}>
             {el.year}<div className="horizontalLine"></div>
             <div className="experience__description">
