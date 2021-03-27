@@ -3,7 +3,7 @@ const projectsList = [
         id:0,
         nom: 'Ag social-network',
         img:'./imgprojets/network.png',
-        description:"Défi projet d'un reseau social. Le défi était de réaliser le MPV en moins d'une semaine. Il reste beaucoup de chose à faire donc je continuerai évidemment à le mettre a jour. Pour le design de l'UI, je me suis inspiré d'une autre site.",
+        description:"Défi projet d'un reseau social en moins d'une semaine. Version mvp.",
         technologie : 'Mern stack',
         visite : true,
         lien:'https://ag-socialnetwork.herokuapp.com/'
@@ -42,7 +42,7 @@ const projectsList = [
         id:4,
         nom: 'Club basket-ball',
         img:'./imgprojets/cbbv.png',
-        description:" Premier projet Fullstack.Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. A finir et améliorer. ",
+        description:" Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. Version mvp.",
         technologie : 'Mern stack',
         visite : true,
         lien: 'https://cbbv.herokuapp.com/'

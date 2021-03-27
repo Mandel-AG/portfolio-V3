@@ -25,10 +25,9 @@ const experiencesTab =[
     index:4,
     class:"shorterLine",
     year : "2020",
-    position:'developpeur',
-    technos : "J'ai travaillé là-bas."
+    position:'Développeur - Projets personnels',
+    technos : "Projet SRL."
   }
 ]
-//class projet, class job, classe 1
 
 export default experiencesTab;
