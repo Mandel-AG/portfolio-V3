@@ -8,8 +8,8 @@ export default function Contact (){
     <div className="containerContact">
         <div className="verticalLine"></div>
         <div className="allContact">
-        <a href="mailto:m.bluth@example.com"><img src={require('./img/mail.png').default} alt='a.mandel@hotmail.fr' /></a>
-        <a href="https://github.com/Mandel-AG" target="_blank" rrel="noreferrer"><img src={require('./img/git.png').default} /></a>
+        <a href="mailto:a.mandel@hotmail.fr"><img src={require('./img/mail.png').default} alt='mail' /></a>
+        <a href="https://github.com/Mandel-AG" target="_blank" rel="noreferrer"><img src={require('./img/git.png').default} alt="github" /></a>
         </div>
     </div>
   )

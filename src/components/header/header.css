@@ -50,22 +50,9 @@
 	margin: auto;
 }
 
-.slide {
-	/* border-bottom: 1px solid bisque; */
-}
-
-@keyframes borderLine {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 100%;
-	}
-}
-
 .nav--Active {
 	border-bottom: 1px solid white;
-	animation: borderLine 1s linear;
+	text-shadow: 1px 1px 7px whitesmoke;
 }
 
 @media screen and (min-width: 608px) {

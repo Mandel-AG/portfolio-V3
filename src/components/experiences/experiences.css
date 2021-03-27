@@ -22,7 +22,7 @@
 .verticalLine {
 	/* min-height: 42vh; */
 	min-height: 100%;
-	border-left: 1px solid whitesmoke;
+	border-left: 1px solid gray;
 	position: absolute;
 	left: 4em;
 }
@@ -50,6 +50,7 @@
 	padding-top: 1em;
 	font-size: small;
 	/* opacity: 75%; */
+	box-shadow: 1px 1px 7px gainsboro;
 }
 
 .experience__description span {

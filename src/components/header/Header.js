@@ -9,10 +9,10 @@ export default class Header extends Component{
 
         window.addEventListener("scroll",()=>{
             let windoww = window.pageYOffset;
-            document.querySelector('.link--presentation').classList.toggle("nav--Active",windoww > 0 && windoww < 880);
-            document.querySelector('.link--competences').classList.toggle("nav--Active",windoww > 881 && windoww < 1731);
-            document.querySelector('.link--experiences').classList.toggle("nav--Active",windoww > 1732 && windoww < 2348);
-            document.querySelector('.link--projets').classList.toggle("nav--Active",windoww > 2348);
+            document.querySelector('.link--presentation').classList.toggle("nav--Active",windoww > 0 && windoww < 574);
+            document.querySelector('.link--competences').classList.toggle("nav--Active",windoww > 575 && windoww < 1385);
+            document.querySelector('.link--experiences').classList.toggle("nav--Active",windoww > 1386 && windoww < 2029);
+            document.querySelector('.link--projets').classList.toggle("nav--Active",windoww > 2030);
         })
 
         return(
