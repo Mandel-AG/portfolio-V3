@@ -3,9 +3,7 @@ import './aboutMe.css';
 
 
 
-class AboutMe extends React.Component{
-
-    render(){
+export default function AboutMe (){
     
         return(
             <div className="containerAboutMe">
@@ -22,7 +20,6 @@ class AboutMe extends React.Component{
                 </div>
             </div>
         )
-    }
+    
 }
 
-export default AboutMe;

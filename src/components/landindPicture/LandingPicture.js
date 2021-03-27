@@ -3,7 +3,7 @@ import './landingPicture.css';
 import img from '../../utils/img/me.png';
 
 
-const LandingPicture = function (props) {
+export default function LandingPicture (){
   return (
     <div className='container__landingPicture'>
                         <img className='myPicture2' src={img} alt="me"></img>
@@ -13,6 +13,5 @@ const LandingPicture = function (props) {
 }
 
 
-export default LandingPicture;
 
 
