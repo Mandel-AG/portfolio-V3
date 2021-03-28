@@ -16,7 +16,7 @@ const projectsList = [
         description:"Projet d'un site de nutrition réalisé en groupe. Indication des éléments nutritifs de fruits + ajout d'un chat en temps réel.",
         technologie : 'React js et Node (Socket io)',
         visite : true,
-        lien : 'https://nutrifruits.herokuapp.com'
+        lien : 'https://nutrifruits.netlify.app'
 
     },
     
