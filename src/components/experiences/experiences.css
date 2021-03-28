@@ -78,4 +78,8 @@
 	.containerExperiences {
 		min-height: 73vh;
 	}
+
+	.experience__description {
+		font-size: x-small;
+	}
 }
