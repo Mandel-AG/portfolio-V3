@@ -26,17 +26,15 @@ const projectsList = [
         img:'./imgprojets/sodassu.png',
         description:"Reproduction d'une animation découverte sur un autre site",
         technologie : 'Javascript natif, HTML / CSS',
-        visite : false,
-        lien :'https://sodassu.herokuapp.com/'
+        visite : false
     },
     {
         id:3,
-        nom: 'AG Movies Streaming',
-        img:'./imgprojets/movies.png',
-        description:"Projet de site VOD. Utilisation d'une api externe.",
-        technologie : 'React JS', 
-        visite : false,
-        lien :'https://movies-ag.herokuapp.com/'
+        nom:"Carnet d'adresses",
+        img:'./imgprojets/appartoo.png',
+        description:"Projet Carnet d'adresse. Fonctionnalité et design spécifiés par l'entreprise.",
+        technologie : 'Angular 9 et Node js', 
+        visite : false
     },
     {
         id:4,
@@ -63,7 +61,14 @@ const projectsList = [
         technologie : 'Javascrip natif et Jquery',
         visite : false
 
-    },
+    },{
+        id:3,
+        nom: 'AG Movies Streaming',
+        img:'./imgprojets/movies.png',
+        description:"Projet de site VOD. Utilisation d'une api externe.",
+        technologie : 'React JS', 
+        visite : false,
+    }
   
     
 ]
