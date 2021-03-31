@@ -32,7 +32,7 @@ const projectsList = [
         id:3,
         nom:"Carnet d'adresses",
         img:'./imgprojets/appartoo.png',
-        description:"Projet Carnet d'adresse. Fonctionnalité et design spécifiés par l'entreprise.",
+        description:"Projet Carnet d'adresse réalisé en 3 jours. Fonctionnalité et design spécifiés par l'entreprise.",
         technologie : 'Angular 9 et Node js', 
         visite : false
     },
