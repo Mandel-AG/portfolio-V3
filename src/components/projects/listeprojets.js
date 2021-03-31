@@ -40,7 +40,7 @@ const projectsList = [
         id:4,
         nom: 'Club basket-ball',
         img:'./imgprojets/cbbv.png',
-        description:" Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. Version mvp.",
+        description:" Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. Version mvp. ",
         technologie : 'Mern stack',
         visite : true,
         lien: 'https://cbbv.herokuapp.com/'
