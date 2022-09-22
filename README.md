@@ -22,7 +22,7 @@ Enfin, on peut lancer le projet.</br>
 		
 
 
-<h3>Desicrition du projet :</h3>
+<h3>Description du projet :</h3>
 
 Projet Personnel : 3eme Version de mon Portfolio.
 
