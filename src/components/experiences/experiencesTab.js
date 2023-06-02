@@ -25,8 +25,17 @@ const experiencesTab =[
     index:4,
     class:"shorterLine",
     year : "2020",
-    position:'Développeur - Projets personnels',
-    technos : "Projet SRL."
+    position:'Développeur',
+    company : 'MyIT Concept',
+    technos : "VueJs, Sharepoint"
+  },
+  {
+    index:5,
+    class:"longerLine",
+    year : "2022",
+    position:'Développeur front',
+    company : 'Huggle',
+    technos : "React, NodeJs"
   }
 ]
 
